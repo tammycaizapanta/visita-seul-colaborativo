@@ -166,6 +166,11 @@ footer a { color: #ff9aa2; }
 .gracias img { border: 3px solid #14161c; border-radius: 6px; margin: 0 auto 16px; }
 .gracias .hangul { color: #cd2e3a; font-size: 3rem; margin: 0; }
 
+/* ===== Preguntas frecuentes (Mario) ===== */
+#faq details { background: #fff; border: 1px solid #d9d4c8; margin-bottom: 8px; padding: 10px 14px; }
+#faq summary { cursor: pointer; font-weight: 700; color: #0b1f4b; }
+#faq details [open] summary { color: #cd2e3a; }
+
 @media (min-width: 700px) {
     .grid { grid-template-columns: 1fr 1fr; }
     .galeria { grid-template-columns: repeat(3, 1fr); }
