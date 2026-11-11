@@ -162,6 +162,31 @@ footer p { color: #d7dcf0; margin: 4px 0; }
 footer .brand { color: white; }
 footer a { color: #ff9aa2; }
 
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ff9aa2;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: white;
+}
+
 .gracias { max-width: 480px; margin: 0 auto; padding: 40px 20px; text-align: center; }
 .gracias img { border: 3px solid #14161c; border-radius: 6px; margin: 0 auto 16px; }
 .gracias .hangul { color: #cd2e3a; font-size: 3rem; margin: 0; }
